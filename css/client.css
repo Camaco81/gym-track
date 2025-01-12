@@ -1,0 +1,32 @@
+.menu{
+	text-decoration: none;
+}
+
+.btn-save{
+	border: none;
+}
+
+.btn-save:hover{
+background: darkcyan;
+transition: 1s;
+}
+
+.table-secondary{
+background-color: cadetblue !important;
+}
+
+.btnEditStyle{
+	border: none;
+	color: white;
+}
+
+
+.btnEditStyle:hover{
+background: darkcyan;
+color: white;
+transition: 0.3s;
+}
+
+a{
+	cursor: pointer;
+}

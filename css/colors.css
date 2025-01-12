@@ -1,0 +1,20 @@
+.bg-blue700{
+	background: cadetblue;
+}
+
+.text-blue750{
+	color: darkcyan;
+}
+
+.text-blue700{
+	color: cadetblue;
+}
+
+.btn-login{
+	border: none;
+}
+
+.btn-login:hover{
+background: darkcyan;
+transition: 1s;
+}

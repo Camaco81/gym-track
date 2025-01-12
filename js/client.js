@@ -59,8 +59,8 @@ window.addEventListener('DOMContentLoaded', async() => {
                 <td>${client.horario}</td>
                 <td>${client.rutinActual}</td>
                 <td scope="row">
-                <button class="btn btn-danger btn-delete" data-id="${dc.id}"><i class="fa-solid fa-trash-can m-1"></i></button>
-                <button class="btn btn-secondary btn-edit" data-id="${dc.id}" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-pen-to-square m-1"></i></button> 
+                <button class=" mb-1 btn btn-danger btn-delete" data-id="${dc.id}"><i class="fa-solid fa-trash-can m-1"></i></button>
+                <button class=" mb-1 btn btnEditStyle bg-blue700 btn-edit" data-id="${dc.id}" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-pen-to-square m-1"></i></button> 
                 </td>
                
                 
