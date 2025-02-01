@@ -16,7 +16,7 @@ function iniciarSesion(){
 
 	 signInWithEmailAndPassword(auth,email,password).then(cred=>{
   
-      location.href="../pages/clientes.html";
+      location.href="../pages/home.html";
 
     }).catch(error => {
       const errorCode= error.code;

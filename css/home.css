@@ -1,0 +1,23 @@
+.menu{
+	text-decoration: none;
+}
+.height-125{
+height: 125px;
+}
+
+.width-125{
+	width: 125;
+}
+body{
+	height: 100%!important;
+}
+a{
+	cursor: pointer;
+}
+
+main{
+	height: 80% !important ;
+}
+footer{
+	height: 20% !important;
+}
