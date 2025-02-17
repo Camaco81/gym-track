@@ -65,7 +65,7 @@
 
   <div class="table-responsive rounded-3 p-2 mx-2">
 
-          <table class="table rounded-3">
+          <table class="table rounded-3" id="miTabla">
 
             <thead>
               <tr>
@@ -85,6 +85,10 @@
             </tbody>
           </table>
         </div>
+
+        <button onclick="generarExcel()" class="btn btn-success mx-2 mb-2">Generar Excel</button>
+
+
 
         <!-- Modal añadir personal -->
 <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -147,9 +151,6 @@
   </div>
 </div>
 
-<!-- <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-primary">
-         
-          Editar cliente</button>  -->
 
 
       <script src="https://kit.fontawesome.com/9fd95bcc65.js" crossorigin="anonymous"></script>
@@ -158,10 +159,11 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 <script src="../firebase/logout.js" type="module"></script>
-
-  <script src="../firebase/security.js" type="module"></script>
-  <script src="../js/client.js" type="module"></script>
-  
+<script src="https://unpkg.com/xlsx/dist/xlsx.full.min.js"></script>
+<script src="../js/excel.js"></script>
+<script src="../firebase/security.js" type="module"></script>
+<script src="../js/client.js" type="module"></script>
+ 
 </body>
 </html>
 
