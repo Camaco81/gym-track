@@ -163,7 +163,7 @@ clientEditForm.addEventListener("submit",(e)=>{
       ci: ci.value,
       fecha: fecha.value,
       concepto:concepto.value,
-      forma_pago:rutinActual.value,
+      forma_pago:forma_pago.value,
       monto:monto.value,
       estado:estado.value
 

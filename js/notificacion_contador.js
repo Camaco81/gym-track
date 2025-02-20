@@ -50,11 +50,7 @@ async function checkExpiredRoutines() {
     
       // Aquí puedes realizar acciones adicionales, como enviar notificaciones, actualizar la base de datos, etc.
     }
-    else{
-        const clientName= clientData.nombre;
-        notificaciones.innerHTML+= `<p class="mb-1 mt-1 mx-1 p-2 "> La rutina del cliente <span  class="fw-semibold text-blue750">${clientName}</span> todavia le falta por vencer</p>`;
-    }
-  });
+      });
 }
 
 // Llamamos a la función para ejecutar la verificación
