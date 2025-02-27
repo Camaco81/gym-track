@@ -1,7 +1,23 @@
-.height-125{
-height: 125px;
+img{
+	height: 130px;
+	width: 130px;
 }
 
-.width-125{
-	width: 125;
+@media screen and (max-width: 600px){
+ img{
+ 	height: 125px;
+ 	width: 125px;
+ }
+ h1{
+ 	text-align: center;
+ }	
+
+}
+
+input{
+	box-shadow: 1px 1px 1px gray;
+}
+
+button{
+	box-shadow: 4px 4px 4px rgb(70,116,117);
 }
